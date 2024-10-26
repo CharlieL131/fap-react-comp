@@ -11,11 +11,11 @@ export default function Home() {
 
   return (
     <div>
-    <Card className="custom-card">
+    <Card className="challange-card">
         <h1>Photo</h1>
         <Avatar person={person} size={70}/>
     </Card>
-    <Card className="custom-card">
+    <Card className="challange-card">
         <h1>About</h1>
         <p>Aklilu Lemma was a distinguished Ethiopian scientist who discovered a natural treatment to schistosomiasis.</p>
     </Card>
