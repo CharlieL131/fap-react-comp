@@ -21,3 +21,26 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+a {
+  color: rgb(167, 0, 167);
+  text-decoration: underline;
+}
+a:hover {
+  color: rgb(189, 25, 189);
+}
+
+li {
+  list-style: inside;
+}
