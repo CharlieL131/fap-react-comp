@@ -7,9 +7,6 @@ export default function Home() {
       {
         name: "Aklilu Lemma",
         imageId: "OKS67lh",
-        profession: "geochemist",
-        awards: ["Miyake Prize for geochemistry", "Tanaka Prize"],
-        discoveries: ["a method for measuring carbon dioxide in seawater"]
       }
 
   return (
