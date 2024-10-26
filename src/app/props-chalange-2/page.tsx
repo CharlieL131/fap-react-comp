@@ -4,7 +4,7 @@ export default function Home() {
   const person = 
       {
         name: "Gregorio Y. Zara",
-        imageId: "7vQD0f",
+        imageId: "7vQD0fP",
       }
 
   return (
