@@ -8,11 +8,11 @@ interface AvatarProps {
 }
 
 export default function Avatar(props: AvatarProps) {
-
+  
   return (
         <img
             className="avatar"
-            src={getImageUrl(props.person)}
+            src={getImageUrl(props.person.imageId)}
             alt={props.person.name}
             width={props.size}
             height={props.size}

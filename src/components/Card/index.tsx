@@ -1,8 +1,8 @@
 import "./styles.css"
-import React, {ReactElement} from "react";
+import {ReactNode} from "react";
 
 interface CardProps {
-    children: ReactElement;
+    children: ReactNode;
 }
 
 export default function Card(props: CardProps) {
