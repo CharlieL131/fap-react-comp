@@ -10,7 +10,7 @@ interface ProfileProps {
 export default function Profile(props: ProfileProps) {
     return (
         <section className="profile">
-            <Card>
+            <Card className="custom-card">
                 <h2>{props.person.name}</h2>
                 <Avatar person={props.person} size={70}/>
                 <ul>
